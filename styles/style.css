@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo {
@@ -24,8 +24,8 @@
 }
 
 nav a {
- display: block;
- margin: 40px;
+ display: flex;
+ align-items: flex-start;
 }
 
 nav a:hover{
@@ -43,25 +43,27 @@ h2 {
 }
 
 .contenido {
-    margin-left: 300px;
-    margin-top: -175px;
+    margin-left: 30%;
+    margin-top: -10%;
 }
 
 article {
-    margin-left: 300px;
-    margin-top: -175px;
+    margin-left: 30%;
+    margin-top: -10%;
 }
 
 h1 {
     color: rgb(255, 255, 255);
     position: absolute;
     z-index: 1;
-    margin-left: 25%;
+    margin-left: 15%;
     margin-right: 25%;
-    font-size: 45px;
+    font-size: 35px;
 }
+
 body {
-    margin:20px;
+    padding: 20%;  
+    padding-top: 2%;
 }
 
 section article {
@@ -69,9 +71,10 @@ section article {
     color:black;
 }
 
-h4, h5, h3 {
-    text-align: left;
+ h3 {
+    text-align: center;
     margin-top: 15px;
+    padding: 5%;
 }
 
 p {
@@ -82,4 +85,59 @@ p {
 
 section {
     margin-left: 20px;
+}
+
+div dd {
+    padding: 2%;
+}
+
+dd {
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+}
+
+dt {
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+.h1-registration {
+    color:black;
+    box-sizing: content-box;
+
+}
+
+.h1-header {
+    display: absolute;
+    color: black;
+}
+
+th {
+    margin-left: 20px;
+}
+
+td {
+    margin: 2%;
+}
+
+.table, th, td {
+    border: 1px solid black;
+    padding: 6px;
+    text-align: center;
+
+}
+
+.container {
+    border: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
 }
